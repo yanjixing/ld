@@ -20,8 +20,8 @@ on:
         default: 'false'
 
 env:
- # REPO_URL: https://github.com/Lienol/openwrt
-  REPO_URL: https://github.com/coolsnowwolf/openwrt
+  REPO_URL: https://github.com/yanjixing/openwrt-2.git
+  #REPO_URL: https://github.com/coolsnowwolf/openwrt
   REPO_BRANCH: lede-17.01 
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
