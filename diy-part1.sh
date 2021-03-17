@@ -16,6 +16,6 @@
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 
-sudo sed -i 's/8m/16m/g' target\linux\ar71xx\image\generic-tp-link.mk
+sudo sed -i 's/8m/16m/g' target/linux/ar71xx/image/generic-tp-link.mk
 
 svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
