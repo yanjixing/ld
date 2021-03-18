@@ -9,7 +9,8 @@
 #
 
 name: Build 7620-OpenWrt
-
+on:
+  repository_dispatch:
 #点☆Star触发开始编译
   watch:
     types: started
