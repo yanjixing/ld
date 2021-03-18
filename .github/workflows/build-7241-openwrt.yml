@@ -13,16 +13,16 @@ name: Build 7241-OpenWrt
 on:
   repository_dispatch:
 #点☆Star触发开始编译
-  watch:
-    types: started
+#  watch:
+#    types: started
 #on:
 #  repository_dispatch:
-#  workflow_dispatch:
-#    inputs:
-#      ssh:
-#        description: 'SSH connection to Actions'
-#        required: false
-#        default: 'false'
+  workflow_dispatch:
+    inputs:
+      ssh:
+        description: 'SSH connection to Actions'
+        required: false
+        default: 'false'
 
 env:
   REPO_URL: https://github.com/yanjixing/openwrt-2
