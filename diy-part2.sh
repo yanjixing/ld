@@ -13,4 +13,5 @@
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 
-sudo sed -i 's/8m/16M/g' target/linux/ar71xx/image/generic-tp-link.mk
+sudo sed -i 's/tplink-8m/tplink-16m/g' target/linux/ar71xx/image/generic-tp-link.mk
+sudo sed -i 's/tplink-8m/tplink-16m/g' target/linux/ar71xx/image/tiny-tp-link.mk
