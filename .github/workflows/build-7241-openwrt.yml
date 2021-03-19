@@ -13,8 +13,8 @@ name: Build 7241-OpenWrt
 on:
   repository_dispatch:
 #点☆Star触发开始编译
-#  watch:
-#    types: started
+  watch:
+    types: started
 #on:
 #  repository_dispatch:
   workflow_dispatch:
