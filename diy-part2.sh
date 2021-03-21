@@ -16,6 +16,6 @@
 sudo sed -i 's/tplink-8m/tplink-16m/g' target/linux/ar71xx/image/generic-tp-link.mk
 sudo sed -i 's/tplink-8m/tplink-16m/g' target/linux/ar71xx/image/tiny-tp-link.mk
 
-sudo sed -i 's/tplink-8m/tplink-16m/g' target/linux/ath79/image/common-tp-link.mk
-sudo sed -i 's/TPLINK_FLASHLAYOUT := 8M/TPLINK_FLASHLAYOUT := 16M/g' target/linux/ath79/image/common-tp-link.mk
-sudo sed -i 's/IMAGE_SIZE := 7936k/IMAGE_SIZE := 15872k/g' target/linux/ath79/image/common-tp-link.mk
+sudo sed -i 's/tplink-8m/tplink-16m/g' target/linux/ar71xx/image/common-tp-link.mk
+sudo sed -i 's/TPLINK_FLASHLAYOUT := 8M/TPLINK_FLASHLAYOUT := 16M/g' target/linux/ar71xx/image/common-tp-link.mk
+sudo sed -i 's/IMAGE_SIZE := 7936k/IMAGE_SIZE := 15872k/g' target/linux/ar71xx/image/common-tp-link.mk
