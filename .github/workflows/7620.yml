@@ -23,7 +23,7 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/yanjixing/openwrt-2
+  REPO_URL: https://github.com/yanjixing/openwrt-3.git
   #REPO_URL: https://github.com/coolsnowwolf/openwrt
   REPO_BRANCH: lede-17.01 
   FEEDS_CONF: feeds.conf.default
