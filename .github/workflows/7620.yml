@@ -23,9 +23,9 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/yanjixing/openwrt-2
+  REPO_URL: https://github.com/1974294589/OpenWrt-R8-2018-12-30-by-Lean.git
   #REPO_URL: https://github.com/coolsnowwolf/openwrt
-  REPO_BRANCH: lede-17.01 
+  REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: 7620.config
   DIY_P1_SH: diy-part1.sh
