@@ -17,4 +17,4 @@
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 
 #svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
-git clone -b luci2 https://github.com/kuoruan/luci-app-v2ray.git package/luci-app-v2ray
+#git clone -b luci2 https://github.com/kuoruan/luci-app-v2ray.git package/luci-app-v2ray
